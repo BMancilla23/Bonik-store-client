@@ -1,0 +1,132 @@
+.flashdeals{
+  background-color: #f6f9fc;
+  width: 100%;
+  padding-top: 3rem;
+}
+
+.flashdeals__heading{
+  display: flex;
+  align-items: center;
+  column-gap: 1rem;
+  margin-bottom: 1rem;
+}
+.flashdeals__icon-bolt{
+  color: #e94560;
+}
+
+
+/* Estilos para las flechas de navegación */
+.arrow__control-btn{
+  position: absolute;
+  top: 50%;
+ 
+  background-color: #0f3460;
+  border: none;
+  border-radius: 50%;
+  padding: .3rem;
+  cursor: pointer;
+  transition: background-color .3s ease;
+  display: flex;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  z-index: 1;
+}
+
+.arrow__control-btn-right{
+  left: 100%;
+  transform: translateX(-10px);
+}
+.arrow__control-btn-left{
+  right: 100%;
+  transform: translateX(10px);
+}
+
+.arrow__control-btn:hover{
+  background-color: #0d243f;
+}
+
+.arrow__next,
+.arrow__prev{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+
+}
+
+.flashcard-slider.slick-slider, .flashcard-slider .slick-list, .flashcard-slider .slick-track{
+  height: 450px;
+}
+
+
+.flashcard-slider .slick-slide{
+  background-color: white;
+  margin-right: 1.2rem;
+  padding: .7rem;
+  border-radius: 10px;
+}
+
+/* Estilos para el contador de likes */
+.card__like-count{
+  font-size: .9rem;
+  font-weight: bold;
+}
+.product__card-discount{
+  background-color: #e94560;
+  color: #fff;
+  border-radius: 25px;
+  font-size: .9rem;
+  padding: .2rem .5rem;
+}
+.product__card-img{
+  object-fit: contain;
+}
+.product__card-like{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 .7rem;
+}
+
+/* Estilos para los detalles del producto */
+.flashcard__product-details{
+  padding: .7rem;
+}
+
+.product__details-name{
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.product__details-rate{
+  color: gold;
+}
+.product__details-price{
+  margin-top: .7rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.details__price-number{
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.details__price-btn{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin-left: .7rem;
+}
+.details__price-btn:hover{
+  color: #007bff;
+}
+
+.price__icon-plus{
+  border: 1px solid #000;
+  padding: .5rem;
+  border-radius: 50%;
+}
+
