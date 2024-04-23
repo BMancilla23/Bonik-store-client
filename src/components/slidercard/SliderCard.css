@@ -1,0 +1,84 @@
+/* Estilos para el contenedor del slider */
+.slider-card {
+  width: 100%;
+}
+
+/* Estilos para el contenido de cada slide */
+.slider-card__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Estilos para la sección izquierda del slide */
+.slider-card__left {
+  flex: 1;
+  padding: 20px;
+}
+
+/* Estilos para el título del slide */
+.slider-card__title {
+  font-size: 2.8rem;
+  margin: 3.2rem 0 1.2rem 0;
+}
+
+/* Estilos para la descripción del slide */
+.slider-card__desc {
+  margin: 1.2rem 0;
+}
+
+/* Estilos para el botón del slide */
+.slider-card__btn {
+  background-color: #e94560;
+  color: #fff;
+  border: none;
+  padding: .8rem 1.4rem;
+  font-weight: 500;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Estilos para la sección derecha del slide */
+.slider-card__right {
+  flex: 1;
+}
+
+/* Estilos para la imagen del slide */
+.slider-card__image {
+  width: 320px;
+  height: auto;
+  border-radius: 5px;
+}
+
+/* Estilos para los puntos de navegación del slider */
+.slider-card__menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+}
+
+/* Estilos para los puntos individuales del slider */
+.slider-card__menu li {
+  margin: 0 10px; /* Aumentamos el margen entre los puntos */
+}
+
+/* Estilos para el punto activo del slider */
+.slider-card__menu li button {
+  background-color: #e94560;
+  border: none;
+  width: 15px; /* Aumentamos el tamaño del punto activo */
+  height: 15px; /* Aumentamos el tamaño del punto activo */
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/* Estilos para el punto inactivo del slider */
+.slider-card__menu li button:hover {
+  background-color: #ccc;
+}
+
