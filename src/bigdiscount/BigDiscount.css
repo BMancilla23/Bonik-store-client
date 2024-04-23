@@ -1,0 +1,29 @@
+.discount{
+  padding-top: 3rem;
+}
+
+.discount__heading{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.discount__heading-left{
+  display: flex;
+  column-gap: .8rem;
+  align-items: center;
+}
+
+.discount__heading-right{
+  display: flex;
+  column-gap: .5rem;
+  align-items: center;
+}
+
+.discountcard__box-product{
+  background-color: white;
+  margin-right: 1rem;
+  padding: .7rem;
+  border-radius: 10px;
+}
