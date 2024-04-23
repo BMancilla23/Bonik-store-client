@@ -1,0 +1,43 @@
+.advertisement{
+  padding-top: 5rem;
+}
+
+.advertisement__container{
+  display: grid;
+  grid-template-columns: 1.4fr 3fr;
+  gap: 2rem;
+}
+
+.advertisement__img-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%; /* Ajusta el ancho según tus necesidades */
+  height: 50vh; /* Ajusta la altura según tus necesidades */
+}
+
+.advertisement__img {
+  width: 100%;
+  transition: transform 0.5s;
+  object-fit: fill;
+
+}
+
+.advertisement__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Color del overlay con transparencia */
+  opacity: 0; /* Inicialmente invisible */
+  transition: opacity 0.5s; /* Transición suave de la opacidad */
+}
+
+.advertisement__img-container:hover .advertisement__img {
+  transform: scale(1.1); /* Efecto de zoom al hacer hover */
+  /*  transform: scale(0.8); */ /* Efecto de alejamiento al hacer hover */
+}
+
+/* .advertisement__img-container:hover .advertisement__overlay {
+  opacity: 1;
+} */
