@@ -1,0 +1,35 @@
+.banner{
+  background-color: #0f3460;
+  color: #ffffff;
+  font-size: .9rem;
+}
+.banner__container{
+  display: flex;
+  padding: 1rem;
+  justify-content: space-between;
+}
+
+.banner__contact-info{
+  display: flex;
+  column-gap: .8rem;
+  align-items: center;
+}
+.banner__contact-info-text{
+  margin-right: 1rem;
+}
+
+.banner__links{
+  display: flex;
+}
+.banner__link,.banner__language,.banner__currency{
+  margin-right: 1.5rem;
+}
+
+.banner__link{
+  color: #ffffff;
+}
+
+.banner__language-icon, .banner__currency-icon{
+  margin-right: .3rem;
+}
+
