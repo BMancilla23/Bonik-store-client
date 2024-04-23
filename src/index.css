@@ -1,0 +1,52 @@
+/* Importar la fuente Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+/* Resetear estilos y establecer box-sizing */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos de la página */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #ffffff;
+}
+
+/* Estilos de los enlaces y listas */
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style: none;
+}
+
+/* Estilos de los botones e inputs */
+input,
+button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+/* Estilos de la sección de fondo y contenedor */
+.background {
+    background: #f6f9fc;
+}
+
+.container {
+    max-width: 90%;
+    margin: auto;
+}
+
+/* Estilos de la sombra */
+.boxShadow {
+    box-shadow: rgb(43 52 69 / 10%) 0px 4px 16px;
+}
