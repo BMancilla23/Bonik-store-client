@@ -1,5 +1,6 @@
 # Bonik - Store - React
 
+---
 
 ## Conventional Commits
 
